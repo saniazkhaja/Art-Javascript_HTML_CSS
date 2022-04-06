@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- creating back button -->
+    <button class="backButton"> <a href="../index.html">Back</a></button>
+
+    <!-- dealing with style of buttons and header -->
+    <style>
+      /* The back button look */
+      .backButton {
+        border: none;
+        color: rgb(255, 72, 0);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: #9b3f02;
+        border: 2px solid #ba1c00;
+      }
+
+      /* creates a hover look when mouse on button */
+      .backButton:hover {
+        background-color: #ad0606;
+        color: white;
+      }
+
+      /* style of header */
+      .header {
+        padding: 10px;
+        text-align: center;
+        background: #110101;
+        color: white;
+        font-size: 30px;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <!-- Uses header styling -->
+    <div class="header">
+      <h1>Instructions</h1>
+      <!-- explaining instructions of the game/simulation -->
+      <p>In this game, you will get to adjust multiple factors to see how crime in a city is affected by them!
+        Adjust each factor by sliding the bar similar to the one in the image. <img src="slidebar.png" alt="Slide Bar" width= "200" height="40">
+        You will get to see how the factors affected the amount of crime in the city and 
+        how a type of crime is affected by the factors. When done, click the finish button and you will get to 
+        see where I got the information from and can find out more about how I calculated it all.
+        Experiment and have fun!</p>
+        <!-- creates image under text -->
+        <img src="crime.png" alt="Slide Bar" width= "1200" height="700">
+    </div>
+</body></html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <!--script src="p5.sound.min.js"></script-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- buttons with links -->
+    <button class="buttonBack"><a href="../index.html">Back</a></button>
+    <button class="buttonRestart"><a href="../../../index.html">Click to Restart!</a></button>
+    
+    <!-- style sheet -->
+    <style>
+      /* back button style */
+      .buttonBack {
+        border: none;
+        color: blue;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: #008CBA;
+        border: 2px solid #008CBA;
+      }
+
+      /* restart button style */
+      .buttonRestart {
+        border: none;
+        color: blue;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: rgb(245, 82, 82);
+        border: 3px solid #af4c7a;
+      }
+
+      /* hover effect */
+      .buttonBack:hover {
+        background-color: #158118;
+        color: white;
+      }
+
+      /* hover effect */
+      .buttonRestart:hover {
+        background-color: #b14a71;
+        color: white;
+      }
+
+      /* header style */
+      .header {
+        padding: 5px;
+        text-align: center;
+        background: #000000;
+        color: white;
+        font-size: 30px;
+      }
+
+      /* temperature section style */
+      .temperature {
+        padding: 5px;
+        text-align: center;
+        background: #a51101;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* gun ownership section style */
+      .gunOwnership {
+        padding: 5px;
+        text-align: center;
+        background: #4d5040;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* unemployment section style */
+      .unemploymentRate {
+        padding: 5px;
+        text-align: center;
+        background: #87a501;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* population section style */
+      .population {
+        padding: 5px;
+        text-align: center;
+        background: #011fa5;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* poverty section style */
+      .povertyLevel {
+        padding: 5px;
+        text-align: center;
+        background: #2c3603;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* youngster section style */
+      .youngsterAmount {
+        padding: 5px;
+        text-align: center;
+        background: #0ed6ec;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+      }
+
+      /* precipitation section style */
+      .precipitation {
+        padding: 5px;
+        text-align: center;
+        background: #016ea5;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* job availibility section style */
+      .jobAvailibility {
+        padding: 5px;
+        text-align: center;
+        background: #a58701;
+        color: white;
+        font-size: 20px;
+      }
+
+      </style>
+
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <!-- all dividers below explain how I found all the factors and how it affected crime -->
+    <div class="header">
+      <h3>This is some more info about how the factors affect crime!</h3>
+    </div>
+
+    <div class="temperature">
+      <p>Temperature: <br>The higher the temperature is the more crime there is. Higher tempertures also 
+        tend to lead to more violent crimes due to the part that it changes brain chemistry. Higher temperatures
+        are associated with more burglaries and theft. The number of shooting victims also increases as the temperature increases.
+        There was a 1.7% increase in criminal activity for each centigrade rise in temperature. Hot summer months 
+        have had more violent crime such as assault and murder.
+      </p>
+    </div>
+
+    <div class="gunOwnership">
+      <p> Gun Ownership: <br>More gun ownership means there tends to be more firearm assault and firearm robbery.
+        There also tends to be more violent crime since the guns are fatal.
+      </p>
+    </div>
+
+    <div class="unemploymentRate">
+      <p> Unemployment Rate: <br>There is more violent crime with a higher unemployment rate. Periods of long unemployment
+          increases the crime rate. There tends to be more theft in such cases.
+      </p>
+    </div>
+
+    <div class="population">
+      <p> Population: <br>A more dense population in an area tends to lead to more crime. Cities tend to have more crime than suburbs 
+        and rural areas.
+      </p>
+    </div>
+
+    <div class="povertyLevel">
+      <p> Poverty Level: <br>Stats have shown that poverty is related to crime. The more poverty in an area, the more crime there tends to be.
+        Joblessness, less access to quality education, low employment and lack of oppurtunity is related to poverty. Some crimes offer
+        people goods they may not be able to afford and these people feel they do not have much to loose which then increases crime. 
+        The type of crime is mainly theft.
+      </p>
+    </div>
+
+    <div class="youngsterAmount">
+      <p> Teens, 20s, 30s Aged Population: <br>Most crimes are commited by people in there teens, 20s and 30s, If there is a higher population 
+        with this age, there would also be a higher crime rate in the city. Seniors do not commit as much crime compared to younger people.
+      </p>
+    </div>
+
+    <div class="precipitation">
+      <p> Precipitation: <br>Higher level of precipitation leads to fewer robberies and burglaries. It does not affect overall crime much.
+      </p>
+    </div>
+
+    <div class="jobAvailibility">
+      <p> Lack of Jobs: <br>Low job availibility is linked with higher violent crime rates. This is due to less oppurtunities available
+        to the people. 
+      </p>
+    </div>
+    
+</body></html>
